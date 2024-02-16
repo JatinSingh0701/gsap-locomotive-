@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+#page1 {
+  height: 100%;
+  width: 100%;
+  background-color: #090909;
+}
+
+#page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(128, 181, 210);
+  display: flex;
+  align-items: center;
+}
+
+#page2 h1 {
+  font-size: 41vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: black;
+}
+
+#page3 {
+  height: 100%;
+  width: 100%;
+  background-color: #090909;
+}
